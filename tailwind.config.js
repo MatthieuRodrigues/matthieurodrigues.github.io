@@ -10,7 +10,10 @@ module.exports = {
         'dark-or' : '#90794D', 
         'night': '#373737',
         'sand': '#F5F2EC',
-        'dark-blue': '#191D81',   
+        'dark-blue': '#191D81',
+        'moon': '#F2F4FA',
+        'sun': '#FACOOO',
+        'night': '#151515', 
       },
       backgroundImage: theme => ({
         'slider-1': "url('img/slider-1.png')",
@@ -18,9 +21,8 @@ module.exports = {
        }),
     },
     fontFamily: {
-      'sans': ['Lato'],
-      heading : ['Teko'],
-      'serif': ['Alegreya'],
+      heading : ['Rubik'],
+      'sans': ['Work Sans'],
      }, 
   },
   variants: {
