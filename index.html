@@ -32,12 +32,17 @@
             </div>
           </div>
           <div class="hidden md:block">
-            <ul class="ml-4 flex items-center text-night text-sm font-medium gap-8">
-                <li><a href="#" class="flex items-center justify-center">Spécialisations</a></li>
-                <li><a href="#" class="flex items-center justify-center">Skills</a></li>
-                <li><a href="#" class="flex items-center justify-center">Portfolio</a></li>
-                <li><a href="#" class="flex items-center justify-center">Le French Crew</a></li>
-                <li><a href="#" class="flex items-center justify-center">Contact</a></li>
+            <ul class="flex items-center text-night text-sm font-medium gap-8">
+                <a href="#Specialisations" class="flex items-center justify-center hover:text-yellowsun transition duration-200 ease-in-out">Spécialisations</a>
+                <a href="#Apropos" class="flex items-center justify-center hover:text-yellowsun transition duration-200 ease-in-out">À Propos</a>
+                <a href="#Outils" class="flex items-center justify-center hover:text-yellowsun transition duration-200 ease-in-out">Mes outils</a>
+                <a href="#Lefrenchcrew" class="flex items-center justify-center hover:text-yellowsun transition duration-200 ease-in-out">Le French Crew 🇫🇷</a>
+                <a href="#Contact" class="flex items-center justify-center hover:text-yellowsun transition duration-200 ease-in-out">Contact</a>
+                <div class="flex ml-14">
+                  <a href="https://www.linkedin.com/in/matthieu-rodrigues/" class="py-2 rounded-md text-sm" target="_blank"><img src="img/icon-LinkedIn.svg" alt=""></a>
+                  <a href="https://dribbble.com/MattRod" class="hover:scale-120 px-4 py-2 rounded-md text-sm" target="_blank"><img src="img/Icon-dribbble.svg" alt=""></a>
+                </div>
+
               </ul>
           </div>
           <div id="burgermenu" class="-mr-2 flex md:hidden">
@@ -63,10 +68,10 @@
   
       <div id="menumobile" class="hidden md:hidden bg-purple-600 rounded-b-2xl h-screen overflow-y-hidden w-full pb-32">
         <div class="flex flex-col h-full text-center px-2 pt-2 pb-3 space- y-1 px-3">
-          <a href="#Services" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">Services</a>
-          <a href="#APropos" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">À Propos</a>
-          <a href="#Methodologie" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">Méthodologie</a>
-          <a href="#Recommandations" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">Recommandations</a>
+          <a href="#Specialisations" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">Services</a>
+          <a href="#Apropos" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">À Propos</a>
+          <a href="#Outils" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">Méthodologie</a>
+          <a href="#Lefrenchcrew" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">Recommandations</a>
           <a href="#Contact" class="flex flex-grow items-end justify-center text-white block px-3 py-4 text-base font-medium">Contact</a>
         </div>
       </div>
@@ -81,32 +86,34 @@
                   <img class="max-w-sm mx-auto justify-center object-contain" src="img/MattRod-Profil.png" alt="">
               </div>
               <div class="mx-2 px-4 text-night">
-                <img src="img/UX & UI Designer - Mattrod.png" alt="">
-                <h3 class="tracking-tight text-night text-xl md:text-2xl mt-4 uppercase">Bienvenue,  je m’appelle Matthieu</h3>
+                <img src="img/UX & UI Designer - Mattrod.svg" alt="">
+                <h3 class="tracking-wider text-night text-xl md:text-2xl mt-4 uppercase font-medium">Bienvenue,  je m’appelle Matthieu</h3>
                 <p class="mt-5 font-sans font-light leading-tight">Depuis près de 10 ans j’imagine, créer et développe des projets dans le digital ! Comment je peux vous aider aujourd’hui ?</p>
               </div>
           </div>
         </div>
     </header>
-
     <main>
 
 
 
       
-      <section class="max-w-7xl mx-auto py-6 px-4 md:px-6 lg:px-8 md:my-20">
+      <section id="Specialisations" class="max-w-7xl mx-auto py-6 px-4 md:px-6 lg:px-8 md:my-20">
 
         <div class="grid grid-col-1 rounded-3xl bg-light-grey md:mx-52">
           <div class="text-center justify-self-center md:max-w-xl my-20 px-4 md:mx-10 md:px-8">
-            <h5 class="text-md mt-6 text-yellow-400 uppercase">Ce que je fais</h5>
-              <h2 class="tracking-wider text-gray-900 text-2xl md:text-4xl font-bold uppercase">Mes spécialisations</h2>
+            <h5 class="text-md mt-6 text-yellowsun uppercase">Ce que je fais</h5>
+              <h2 class="tracking-wider font-semibold text-2xl md:text-4xl">Mes spécialisations</h2>
           </div>
 
           <div class="mx-6 md:mx-0 md:-mb-20 md:-mx-48 max-w-5xl justify-self-center ">
               <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
 
-                    <div class="relative self-end p-8 rounded-3xl bg-transparent h-96 border-2 border-transparent transform hover:border-yellow-300 hover:scale-105 hover:bg-white hover:shadow-xl motion-reduce:transform-none duration-500">
-                      <h3 class="text-xl font-bold text-center uppercase">UX & UI Design</h3>
+                    <div class="relative self-end p-8 rounded-3xl h-96 border-2 border-yellowsun scale-105 bg-white shadow-xl">
+                      <div class="absolute -top-4 -right-4 flex justify-center flex-row gap-4 ">
+                        <div class="h-12 w-12 bg-night rounded-full flex items-center justify-center transform hover:scale-105 motion-reduce:transform-none duration-500" ><img src="img/flame.svg" class="h-5 w-5"></div> 
+                      </div>
+                      <h3 class="text-xl font-medium text-center ">UX & UI Design</h3>
                       <p class="text-sm text-justify mt-6 antialiased font-sans font-light">J’imagine les meilleurs applications, site et logiciels pour vous et vos utilisateurs ! Car oui, ce sont vos utilisateurs qui à la fin doivent être le plus satisfait!</p>
                       <ul class="list-inside list-disc text-nemo mt-6 gap-4 space-y-2">
                         <li class="">Recherche utilisateur</li>
@@ -116,25 +123,25 @@
                       </ul>
                     </div>
                
-                    <div class="relative self-end p-8 rounded-3xl bg-transparent h-96 border-2 border-transparent transform hover:border-yellow-300 hover:scale-105 hover:bg-white hover:shadow-xl motion-reduce:transform-none duration-500">
-                      <h3 class="text-xl font-bold text-center uppercase">UX & UI Design</h3>
+                    <div class="relative self-end p-8 rounded-3xl bg-transparent h-96 border-2 border-transparent transform hover:border-yellowsun hover:scale-105 hover:bg-white hover:shadow-xl motion-reduce:transform-none duration-500">
+                      <h3 class="text-xl font-medium text-center ">Stratégie sur mesure</h3>
                       <p class="text-sm text-justify mt-6 antialiased font-sans font-light">J’imagine les meilleurs applications, site et logiciels pour vous et vos utilisateurs ! Car oui, ce sont vos utilisateurs qui à la fin doivent être le plus satisfait!</p>
                       <ul class="list-inside list-disc text-nemo mt-6 gap-4 space-y-2">
-                        <li class="">Recherche utilisateur</li>
-                        <li class="">Prototypage et Wireframe</li>
-                        <li class="">Web & App Design</li>
-                        <li class="">blabla</li>
+                        <li class="">Audit de l’existant </li>
+                        <li class="">Plan de communication</li>
+                        <li class="">Stratégie marketing</li>
+                        <li class="">Stratégie de gamification</li>
                       </ul>
                     </div>
 
-                <div class="relative self-end p-8 rounded-3xl bg-transparent h-96 border-2 border-transparent transform hover:border-yellow-300 hover:scale-105 hover:bg-white hover:shadow-xl motion-reduce:transform-none duration-500">
-                      <h3 class="text-xl font-bold text-center uppercase">UX & UI Design</h3>
-                      <p class="text-sm text-justify mt-6 antialiased font-sans font-light">J’imagine les meilleurs applications, site et logiciels pour vous et vos utilisateurs ! Car oui, ce sont vos utilisateurs qui à la fin doivent être le plus satisfait!</p>
+                <div class="relative self-end p-8 rounded-3xl bg-transparent h-96 border-2 border-transparent transform hover:border-yellowsun hover:scale-105 hover:bg-white hover:shadow-xl motion-reduce:transform-none duration-500">
+                      <h3 class="text-xl font-medium text-center">Brand design</h3>
+                      <p class="text-sm text-justify mt-6 antialiased font-sans font-light">Votre identité de A à Z. Vos valeurs, envies et idées représentées graphiquement. Votre image est tellement importante alors ne la négligez pas !</p>
                       <ul class="list-inside list-disc text-nemo mt-6 gap-4 space-y-2">
-                        <li class="">Recherche utilisateur</li>
-                        <li class="">Prototypage et Wireframe</li>
-                        <li class="">Web & App Design</li>
-                        <li class="">blabla</li>
+                        <li class="">Charte graphique</li>
+                        <li class="">Landing page</li>
+                        <li class="">Support print & web</li>
+                        <li class="">Réseaux sociaux</li>
                       </ul>
                     </div>
               </div>
@@ -143,68 +150,72 @@
     </section> 
 
 
-    <section>
+    <section id="Apropos"> 
     <div class="max-w-7xl mx-auto py-6 px-6 lg:px-8 py-20">
       <div class="flex items-center grid grid-cols-1 text-center lg:grid-cols-2  md:text-left py-20 gap-20">
           <div class="order-first">
               <img class="w-full justify-center object-contain rounded-2xl" src="img/wirferame.png" alt="">
           </div>
           <div class="mx-2 px-4 text-snow">
-            <h5 class="text-xs uppercase text-yellow-400">Une passion depuis près de 10 ans</h5>
-            <h2 class="tracking-tight text-night text-3xl md:text-5xl mt-4">Travaillons ensemble</h2>
+            <h5 class="text-xs uppercase text-yellowsun">Une passion depuis près de 10 ans</h5>
+            <h2 class="tracking-wider font-semibold text-night text-2xl md:text-5xl mt-4">Travaillons ensemble</h2>
             <p class="text-sm text-justify mt-6 antialiased font-sans font-light text-night">Depuis près de 10 ans, j’imagine et créer des visuels de toutes sortes: flyer, plaquette, présentation… C’est durant mes années d’études que j’ai découvert un domaine qui me passionne encore plus, l’experience utilisateur ou comment rendre un objet, une création, un logiciel facile d’utilisation et accessible à tous !  </p>
             <div class="mt-8 max-w-xs">
-                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-400 hover:bg-night transition duration-700 ease-in-out">Me contacter<svg class="ml-3 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
+                <a href="#" class="rounded-r-3xl rounded-b-3xl flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium text-white bg-yellowsun hover:bg-night transition duration-700 ease-in-out">Me contacter<svg class="ml-3 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
             </div>
           </div>
       </div>
+    </section>
 
+    <section id="Lefrenchcrew">
+      <div class="max-w-7xl mx-auto py-6 px-6 lg:px-8 py-20">
       <div class="flex items-center grid grid-cols-1 text-center lg:grid-cols-2  md:text-left py-20 gap-20">
         <div class="order-first lg:order-last">
             <img class="w-full justify-center object-contain rounded-2xl" src="img/Le French Crew-team.png" alt="">
         </div>
-        <div class="mx-2 px-4 text-snow">
-          <h5 class="text-xs uppercase text-yellow-400">Avec qui je travaille</h5>
-          <h2 class="tracking-tight text-night text-3xl md:text-5xl mt-4">Le French Crew</h2>
-          <p class="text-sm text-justify mt-6 antialiased font-sans font-light text-night">Le French Crew, c’est un regroupement d’exert dans différents domaines du digital. Nous concevons, développons et gamifions des applications web et mobiles. Je suis le co-fondateur de ce groupe et également le principal UX/UI designer !
-            Si notre Crew vous intéresse aller voir  👇</p>
+        <div class="mx-2 px-4">
+          <h5 class="text-xs uppercase text-yellowsun">Avec qui je travaille</h5>
+          <h2 class="tracking-wider font-semibold  text-night text-2xl md:text-5xl mt-4">Le French Crew</h2>
+          <p class="text-sm text-justify mt-6 antialiased font-sans font-light text-night">Le French Crew, c’est un regroupement d’exert dans différents domaines du digital. Nous concevons, développons et gamifions des applications web et mobiles. Je suis le co-fondateur de ce groupe et également le principal UX/UI designer !</p>
+          <p class="text-night text-md mt-6">Si notre Crew vous intéresse 👇</p>
             <div class="mt-8 max-w-xs">
-              <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-400 hover:bg-night transition duration-700 ease-in-out">Me contacter<svg class="ml-3 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
+              <a href="https://lefrenchcrew.com/" target="_blank" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-r-3xl rounded-b-3xl text-white bg-yellowsun hover:bg-night transition duration-700 ease-in-out">Découvrir le crew<svg class="ml-3 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
           </div>
+        </div>
       </div>
     </section>
     
 
  
-    <section class="max-w-7xl mx-auto py-6 px-4 md:px-6 lg:px-8 md:my-10">
+    <section id="Contact" class="max-w-7xl mx-auto py-6 px-4 md:px-6 lg:px-8 md:my-10">
       <div class="grid grid-cols-1 md:grid-cols-2 flex items-center">
         <div class="text-center md:text-left md:max-w-lg mx-2 my-20 px-4 md:mx-10 md:px-8">
-          <h5 class="text-xs uppercase text-yellow-400">Envie de dire quelque chose ?</h5>
-            <h1 class="text-3xl font-bold text-black">Faites le premier pas, je m’occupe du reste !</h1>
-            <p class="text-sm text-justify mt-6 antialiased font-sans font-light text-night">Une idée, un projet ou simplement discuter ? N’hésitez pas à m’écrire je serais heureux de vous répondre !Ça se passe juste ici 👉</p>
+          <h5 class="text-xs uppercase text-yellowsun">Envie de dire quelque chose ?</h5>
+            <h1 class="tracking-wider font-semibold text-2xl font-bold text-black">Faites le premier pas, je m’occupe du reste !</h1>
+            <p class="text-sm text-justify mt-6 antialiased font-sans font-light text-night">Une idée, un projet ou simplement discuter ? N’hésitez pas à m’écrire je serais heureux de vous répondre !</p>
             <p class="text-md mt-6">Ça se passe juste ici 👉</p>
     
   </div>
   
-        <form class="flex flex-auto grid grid-cols-2 bg-yellow-400 rounded-3xl shadow-md p-6 px-12">
+        <form class="flex flex-auto grid grid-cols-2 bg-yellowsun rounded-3xl shadow-md p-6 px-12">
   
           <div class="mt-8 mr-8">
           <label class="font-bold text-sm text-white" for="message">Nom
-            <input type="text" class="mt-2 py-2 placeholder-white placeholder-opacity-50 mt-0 block w-full px-0.5 bg-yellow-400 border-0 border-b-2 border-white focus:ring-0 focus:border-white" id="" name="" type="" placeholder="Elon Musk"></textarea>
+            <input type="text" class="mt-2 py-2 placeholder-white placeholder-opacity-50 mt-0 block w-full px-0.5 bg-yellowsun border-0 border-b-2 border-white focus:ring-0 focus:border-white" id="" name="" type="" placeholder="Elon Musk"></textarea>
           </div>
   
           <div class="mt-8">
           <label class="mt-6 font-bold text-sm text-white" for="message">Email
-            <input type="email" class="mt-2 py-2 placeholder-white placeholder-opacity-50 mt-0 block w-full px-0.5 bg-yellow-400 border-0 border-b-2 border-white focus:ring-0 focus:border-white" id="" name="" type="" placeholder="something@website.com"></textarea>
+            <input type="email" class="mt-2 py-2 placeholder-white placeholder-opacity-50 mt-0 block w-full px-0.5 bg-yellowsun border-0 border-b-2 border-white focus:ring-0 focus:border-white" id="" name="" type="" placeholder="something@website.com"></textarea>
           </div>
   
           <div class="mt-8 col-span-2">
           <label class="mt-8 font-bold text-sm text-white" for="message">Message
-              <textarea class="mt-2 py-2 h-24 placeholder-white placeholder-opacity-50 mt-0 block w-full px-0.5 bg-yellow-400 border-0 border-b-2 border-white focus:ring-0 focus:border-white" id="" name="" type="" placeholder="Je vous écrit pour…"></textarea>
+              <textarea class="mt-2 py-2 h-24 placeholder-white placeholder-opacity-50 mt-0 block w-full px-0.5 bg-yellowsun border-0 border-b-2 border-white focus:ring-0 focus:border-white" id="" name="" type="" placeholder="Je vous écrit pour…"></textarea>
           </div>
   
           <div class="col-span-2 mt-8 w-80 justify-center md:justify-start">
-            <a href="#" class="justify-center text-yellow-400 text-sm font-semibold bg-white rounded-full px-6 py-3 flex items-center transform hover:scale-105 motion-reduce:transform-none duration-500">Envoyer le message<span class="ml-4 icon-lfc-send transform"></span></a>
+            <a href="#" class="justify-center text-yellowsun text-sm font-semibold bg-white rounded-full px-6 py-3 flex items-center transform hover:scale-105 motion-reduce:transform-none duration-500">Envoyer le message<span class="ml-4 icon-lfc-send transform"></span></a>
         </div>
   
         
@@ -236,18 +247,18 @@
                     <img class="" src="img/MattRod.svg" alt="">
                   </div>
                       <div class="flex flex-row mt-5 justify-center md:justify-start text-night">
-                      <p>Ux & Ui Designer Indépendant et<br>Co-fondateur de Le French Crew
-                      </p>
+                      <p>Ux & Ui Designer Indépendant et<br>Co-fondateur de Le French Crew 🇫🇷</p>
                       </div>
                   </div>
                 </div>
                 <div class="md:col-start-3 md:col-end-3 mt-8 md:mt-0">
                     <div class="hidden md:block">
                       <ul class="ml-4 flex flex-col text-left text-night text-sm font-medium gap-4">
-                          <li><a href="#" class="flex items-center">Spécialisations</a></li>
-                          <li><a href="#" class="hover:text-or">À Propos</a></li>
-                          <li><a href="#" class="hover:text-or">Le French Crew</a></li>
-                          <li><a href="#" class="hover:text-or">Contact</a></li>
+                          <li><a href="#Specialisations" class="flex items-center hover:text-yellowsun">Spécialisations</a></li>
+                          <li><a href="Apropos" class="hover:text-yellowsun">À Propos</a></li>
+                          <li><a href="#Lefrenchcrew" class="hover:text-yellowsun">Le French Crew 🇫🇷</a></li>
+                          <li><a href="#Blog" class="hover:text-yellowsun">Blog</a></li>
+                          <li><a href="#Contact" class="hover:text-yellowsun">Contact</a></li>
                       </ul>
                     </div>
                   </div>
@@ -255,9 +266,10 @@
                 <div class="md:col-start-4 md:col-end-4 mt-8 md:mt-0">
                   <div class="text-night">
                     <p class="text-sm font-medium ">Mon travail 👇</p>
-                    <div class="absolute -bottom-4 inset-x-3 flex justify-center flex-row gap-4"></div>
-                    <a href="https://www.linkedin.com/in/marion-soukri/" class="hover:opacity-80 px-4 py-2 rounded-md text-sm" target="_blank"><img src="img/icon-LinkedIn.svg" alt=""></a>
-                    <a href="https://www.linkedin.com/in/marion-soukri/" class="hover:opacity-80 px-4 py-2 rounded-md text-sm" target="_blank"><img src="img/Icon-dribbble.svg" alt=""></a>
+                    <div class="flex mt-2">
+                    <a href="https://www.linkedin.com/in/matthieu-rodrigues/" class="hover:scale-105 py-2 rounded-md text-sm" target="_blank"><img src="img/icon-LinkedIn.svg" alt=""></a>
+                    <a href="https://dribbble.com/MattRod" class="hover:scale-120 px-4 py-2 rounded-md text-sm" target="_blank"><img src="img/Icon-dribbble.svg" alt=""></a>
+                  </div>
                   </div>
                 </div>
             </div>
@@ -268,7 +280,7 @@
           <div class="max-w-7xl mx-auto px-2 py-2">  <!-- Footer  -->
               <div class="flex items-center grid md:grid-cols-3 grid-cols-1 text-center text-night">
                 <div class="md:text-left">
-                  <a href="#" class=" px-3 py-2 text-xs">Fabriqué à Toulouse</a>
+                  <a href="#" class=" px-3 py-2 text-xs">Imaginé et développé à Toulouse 💻</a>
                 </div>
                 <div class="">
                   <a href="#" class=" px-3 py-2 text-xs">Copyright © 2020 MattRod</a>
@@ -281,6 +293,5 @@
           </div> <!-- #Footer -->
         </div>
   </footer>
-
 </body>
 </html>

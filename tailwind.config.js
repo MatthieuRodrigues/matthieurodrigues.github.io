@@ -3,6 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+
       colors: {
         'snow': '#C3BFBA',
         'bear': '#473F34',
@@ -12,7 +13,7 @@ module.exports = {
         'sand': '#F5F2EC',
         'dark-blue': '#191D81',
         'moon': '#F2F4FA',
-        'sun': '#FACOOO',
+        'yellowsun': '#F4B414',
         'night': '#151515', 
       },
       backgroundImage: theme => ({
@@ -21,7 +22,8 @@ module.exports = {
        }),
     },
     fontFamily: {
-      heading : ['Rubik'],
+      'medium' : ['Rubik'],
+      'semibold' : ['Rubik'],
       'sans': ['Work Sans'],
      }, 
   },

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1556.5" height="215" viewBox="0 0 1556.5 215">
+  <g id="Groupe_4942" data-name="Groupe 4942" transform="translate(-156 -400)">
+    <g id="Groupe_4935" data-name="Groupe 4935" transform="translate(0 -19.038)">
+      <text id="UX_UI" data-name="UX &amp; UI" transform="translate(188 582.038)" fill="#151515" font-size="163" font-family="Rubik" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">UX &amp; UI</tspan></text>
+      <text id="Designer" transform="translate(862 582.038)" fill="none" stroke="#fac001" stroke-width="5.5" font-size="163" font-family="Rubik" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">DESIGNER</tspan></text>
+      <g id="Groupe_4895" data-name="Groupe 4895" transform="translate(156 419.038)">
+        <line id="Ligne_1" data-name="Ligne 1" y2="191.045" transform="translate(10.945 12.687)" fill="none" stroke="#151515" stroke-width="2"/>
+        <line id="Ligne_2" data-name="Ligne 2" y2="191.045" transform="translate(657.714 12.687)" fill="none" stroke="#151515" stroke-width="2"/>
+        <line id="Ligne_3" data-name="Ligne 3" x2="646.768" transform="translate(10.945 10.696)" fill="none" stroke="#151515" stroke-width="2"/>
+        <line id="Ligne_4" data-name="Ligne 4" x2="646.768" transform="translate(10.945 203.732)" fill="none" stroke="#151515" stroke-width="2"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="11" cy="11" r="11" transform="translate(0 192)" fill="#151515"/>
+        <circle id="Ellipse_14" data-name="Ellipse 14" cx="11" cy="11" r="11" fill="#151515"/>
+        <circle id="Ellipse_15" data-name="Ellipse 15" cx="11" cy="11" r="11" transform="translate(647)" fill="#151515"/>
+        <circle id="Ellipse_16" data-name="Ellipse 16" cx="11" cy="11" r="11" transform="translate(647 193)" fill="#151515"/>
+      </g>
+    </g>
+  </g>
+</svg>
